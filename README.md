@@ -4,7 +4,7 @@ This is a Seasme Street RPG game.  You goal is to choose a character and fight a
 
 ## Getting Started
 
-https://josephlui.github.io/unit-4-game/index.html
+https://josephlui.github.io/unit-4-game/
 
 ### Prerequisites
 
