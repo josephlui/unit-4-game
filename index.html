@@ -1,0 +1,79 @@
+<!Doctype html>
+<html lang="en">
+    <head><title>RPG</title>
+        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="./assets/javascript/game.js"></script>
+    </head>
+    <body>
+     <h5>Seasame RPG Game</h5>
+     <div class="container">
+           
+            <div class="row rowHeight">  
+                    <div class="col-lg-12" id="section_availableCharacter">
+                       <div id="availableCharacters">
+                          <div class="characterContainer">
+                              Elmo<img src= "./assets/images/elmo.jpeg" width="80px" height="80px" id="0" class="imageContainer">
+                              <div class="healthPower">130</div>
+                          </div>
+                          <div class="characterContainer">
+                              Ernie<img src= "./assets/images/ernie.jpeg" width="80px" height="80px" id="1" class="imageContainer">
+                              <div class="healthPower">140</div>  
+                          </div>
+                          <div class="characterContainer">
+                              Bert<img src= "./assets/images/bert.jpeg" width="80px" height="80px" id="2" class="imageContainer">
+                              <div class="healthPower">120</div> 
+                            </div>
+                          <div class="characterContainer">
+                              Oscar<img src= "./assets/images/oscar.jpeg" width="80px" height="80px" id="3" class="imageContainer">
+                              <div class="healthPower">120</div> 
+                            </div>
+                       </div>
+                       <h6>Your character</h6>
+                    </div>                        
+            </div>
+
+          
+            <div class="row rowHeight">  
+                <div class="col-lg-12" id="section_enemies">
+                   
+                    <div id="enemies"></div>
+                    <h6>Enemies Available To Attack</h6>
+                </div>                       
+            </div>
+            <div class="row" id="section_fight ">  
+                <div class="col-lg-12" >
+                    <h6>Fight Section</h6>
+                    <div id="fight">
+                        <button id="attack">Attack</button>
+                    </div>
+                </div>                       
+            </div>
+            <div class="row" id="defender_section rowHeight">  
+                <div class="col-lg-12" >
+                    <h6>Defender</h6>
+                    <div id="defender"></div>
+                </div>                       
+            </div>
+            <div class="row" >  
+                <div class="col-lg-12"  id="summary">
+
+                   
+                </div>    
+                
+                
+            </div>
+            <div class="row" >  
+                    <div class="col-lg-12">
+    
+                            <button id="reset">Restart</button>            
+                    </div>    
+                    
+                    
+                </div>
+               
+    </div>                       
+    </body>
+</html>
